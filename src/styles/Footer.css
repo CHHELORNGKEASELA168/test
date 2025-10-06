@@ -1,0 +1,371 @@
+/* Footer.css */
+
+/* Base Styles - Mobile First */
+.footer {
+    background-image: url(../../public/image/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    min-height: auto;
+    margin-top: 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: 140px;
+    margin-bottom: 1rem;
+}
+
+/* Footer Content Grid */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-section1 {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+}
+
+.section-title1 {
+    color: #305534;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.icon-box-footer {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icon-box-footer span {
+    font-size: 1.1rem;
+    color: #305534;
+    border: 1px solid #305534;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.icon-box-footer span:hover {
+    background-color: #305534;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Footer Sections Content */
+.footer-section-content {
+    width: 100%;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.footer-section2,
+.footer-section3,
+.footer-section4 {
+    text-align: center;
+}
+
+.section-title2,
+.section-title3,
+.section-title4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #305534;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-list li {
+    color: #305534;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.nav-item:hover,
+.footer-list li:hover {
+    color: #ffffff;
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+/* Divider */
+.footer-divider {
+    height: 1px;
+    background-color: #305534;
+    margin: 1.5rem 0;
+    width: 100%;
+    opacity: 0.3;
+}
+
+/* Bottom Section */
+.footer-bottom {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-quote {
+    font-size: 1rem;
+    color: #305534;
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 500;
+}
+
+.footer-copyright {
+    font-size: 0.8rem;
+    color: #305534;
+    margin: 0;
+    opacity: 0.7;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+    .footer {
+        padding: 3rem 2rem;
+        margin-top: 15%;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .footer-section1 {
+        width: 40%;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .footer-section-content {
+        width: 60%;
+        margin-left: 0;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .footer-section2,
+    .footer-section3,
+    .footer-section4 {
+        text-align: left;
+    }
+
+    .icon-box-footer {
+        justify-content: flex-start;
+    }
+
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    .footer-quote {
+        font-size: 1rem;
+        max-width: 60%;
+    }
+
+    .footer-copyright {
+        text-align: right;
+        flex-shrink: 0;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    .footer {
+        padding: 4rem 2rem;
+        margin-top: 10%;
+    }
+
+    .footer-content {
+        gap: 4rem;
+    }
+
+    .footer-section1 {
+        width: 35%;
+    }
+
+    .footer-section-content {
+        width: 65%;
+        gap: 3rem;
+    }
+
+    .footer-logo img {
+        width: 170px;
+    }
+
+    .section-title1 {
+        font-size: 1.1rem;
+    }
+
+    .section-title2,
+    .section-title3,
+    .section-title4 {
+        font-size: 1.35rem;
+    }
+
+    .footer-list li {
+        font-size: 1rem;
+        line-height: 2.2;
+    }
+
+    .icon-box-footer span {
+        font-size: 1.25rem;
+        padding: 9px;
+    }
+}
+
+/* Large Desktop Styles */
+@media (min-width: 1280px) {
+    .footer-container {
+        max-width: 1200px;
+    }
+
+    .footer-content {
+        gap: 5rem;
+    }
+
+    .footer-section-content {
+        gap: 4rem;
+    }
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+    .footer {
+        padding: 1.5rem 1rem;
+    }
+
+    .footer-logo img {
+        width: 120px;
+    }
+
+    .section-title1 {
+        font-size: 0.9rem;
+    }
+
+    .section-title2,
+    .section-title3,
+    .section-title4 {
+        font-size: 1.1rem;
+    }
+
+    .footer-list li {
+        font-size: 0.85rem;
+        line-height: 1.8;
+    }
+
+    .icon-box-footer {
+        gap: 0.8rem;
+    }
+
+    .icon-box-footer span {
+        font-size: 1rem;
+        padding: 6px;
+    }
+
+    .footer-quote {
+        font-size: 0.9rem;
+    }
+
+    .footer-copyright {
+        font-size: 0.75rem;
+    }
+}
+
+/* Animation for better interactivity */
+.footer-list li {
+    position: relative;
+    padding-left: 0;
+    transition: all 0.3s ease;
+}
+
+.nav-item::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+}
+
+.nav-item:hover::before {
+    width: 8px;
+}
+
+/* Focus styles for accessibility */
+.nav-item:focus {
+    outline: 2px solid #305534;
+    outline-offset: 2px;
+}
+
+/* Social media icons hover effects */
+.icon-box-footer span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 480px) {
+    .icon-box-footer span {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .footer {
+        background: white !important;
+        color: black !important;
+    }
+
+    .footer-list li {
+        color: #333 !important;
+    }
+
+    .footer-divider {
+        background-color: #ccc !important;
+    }
+
+    .icon-box-footer {
+        display: none !important;
+    }
+}
