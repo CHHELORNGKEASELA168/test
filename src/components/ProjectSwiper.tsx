@@ -78,14 +78,14 @@ const ProjectSwiper: React.FC<ProjectSwiperProps> = ({
 const defaultProjects: Project[] = [
   {
     id: 1,
-    image: "public/image/project1.jpg.webp",
+    image: "/image/project1.jpg.webp",
     title: "Lawn removing",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sellitcitudin ante.",
     buttonText: "View"
   },
   {
     id: 2,
-    image: "public/image/project2.jpg.webp",
+    image: "/image/project2.jpg.webp",
     title: "Lawn removing",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sellitcitudin ante.",
     buttonText: "View"
@@ -99,7 +99,7 @@ const defaultProjects: Project[] = [
   },
   {
     id: 4,
-    image: "public/image/project4.jpg.webp",
+    image: "/image/project4.jpg.webp",
     title: "Landscape Project",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sellitcitudin ante.",
     buttonText: "View"
