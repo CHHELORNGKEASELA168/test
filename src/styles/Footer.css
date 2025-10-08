@@ -112,7 +112,7 @@
 
 .nav-item:hover,
 .footer-list li:hover {
-    color: #ffffff;
+    color: #305534;
     opacity: 1;
     transform: translateX(5px);
 }

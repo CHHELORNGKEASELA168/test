@@ -115,12 +115,6 @@ const CommitmentSection: React.FC = () => {
                                             <p className="text-user ceo-title">{slide.ceoTitle}</p>
                                         </div>
                                     </div>
-
-
-
-                                    {/* <div className="cta-block">
-                                        <button className="cta-button">View Services</button>
-                                    </div> */}
                                 </div>
 
                             </SwiperSlide>

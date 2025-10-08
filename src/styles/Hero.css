@@ -2,11 +2,6 @@
     position: relative;
     height: 80vh;
     overflow: hidden;
-    /* background-image: url(https://media1.thrillophilia.com/filestore/n2ib9inwzcilxpg3aumbigvq4jus_IMG_World_Dubai_Fun_38a0986c1a.jpg?w=400&dpr=2);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* margin-top: 100px; */
 }
 .slide-titleWW {
     background: linear-gradient(45deg, #fff, #f0f0f0);
@@ -84,7 +79,8 @@
 }
 
 .cta-button {
-    background-color: #2d5a27;
+    /* background-color: #2d5a27; */
+        background: rgba(255, 255, 255, 0.5);
     color: white;
     border: none;
     padding: 15px 40px;
